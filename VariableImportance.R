@@ -25,7 +25,7 @@ wssplot <- function(data, nc=15, seed=1234){
 
 #1 standardize data : since the variables vary in range, they are standardized prior 
 #to clustering
-df <- scale(tab[2:26]) 
+df <- scale(tab[2:26]) ok
 
 #2 determine number of clusters using NbClust : the number of clusters is determined 
 #using the wwsplot() and NbClust()functions
